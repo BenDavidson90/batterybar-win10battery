@@ -1,0 +1,110 @@
+<Theme>
+	<Author>BenDavidson90</Author>
+	<Date>2019-03-23</Date>
+	<Description>Styled to match the Windows 10 battery tray icon.</Description>
+	<Name>Win10 Battery (Colored)</Name>
+	<Version>1.0</Version>
+	<States>
+	
+		<Default>
+			<Padding>8,50,0,0</Padding>
+			<Background>
+				<Center>resources\battery.png</Center>
+				<Margin>0,0,0,0</Margin>
+			</Background>
+			<ProgressBar>
+				<Center>resources\state_normal.png</Center>
+				<Margin>24,35,23,35</Margin>
+			</ProgressBar>
+			<HoverOverlay>
+				<Center>resources\overlay_hover.png</Center>
+				<Margin>0,0,0,0</Margin>
+			</HoverOverlay>
+			<PressedOverlay>
+				<Center>resources\overlay_pressed.png</Center>
+				<Margin>0,0,0,0</Margin>
+			</PressedOverlay>
+		</Default>
+		
+		<Discharging>
+			<Padding>8,50,0,0</Padding>
+			<Background>
+				<Center>resources\battery.png</Center>
+				<Margin>0,0,0,0</Margin>
+			</Background>
+			<ProgressBar>
+				<Center>resources\state_normal.png</Center>
+				<Margin>24,35,23,35</Margin>
+			</ProgressBar>
+			<HoverOverlay>
+				<Center>resources\overlay_hover.png</Center>
+				<Margin>0,0,0,0</Margin>
+			</HoverOverlay>
+			<PressedOverlay>
+				<Center>resources\overlay_pressed.png</Center>
+				<Margin>0,0,0,0</Margin>
+			</PressedOverlay>
+		</Discharging>
+		
+		<LowBattery>
+			<Padding>8,50,0,0</Padding>
+			<Background>
+				<Center>resources\battery.png</Center>
+				<Margin>0,0,0,0</Margin>
+			</Background>
+			<ProgressBar>
+				<Center>resources\state_low.png</Center>
+				<Margin>24,35,23,35</Margin>
+			</ProgressBar>
+			<HoverOverlay>
+				<Center>resources\overlay_hover.png</Center>
+				<Margin>0,0,0,0</Margin>
+			</HoverOverlay>
+			<PressedOverlay>
+				<Center>resources\overlay_pressed.png</Center>
+				<Margin>0,0,0,0</Margin>
+			</PressedOverlay>
+		</LowBattery>
+		
+		<CriticalBattery>
+			<Padding>8,50,0,0</Padding>
+			<Background>
+				<Center>resources\battery.png</Center>
+				<Margin>0,0,0,0</Margin>
+			</Background>
+			<ProgressBar>
+				<Center>resources\state_critical.png</Center>
+				<Margin>24,35,23,35</Margin>
+			</ProgressBar>
+			<HoverOverlay>
+				<Center>resources\overlay_hover.png</Center>
+				<Margin>0,0,0,0</Margin>
+			</HoverOverlay>
+			<PressedOverlay>
+				<Center>resources\overlay_pressed.png</Center>
+				<Margin>0,0,0,0</Margin>
+			</PressedOverlay>
+		</CriticalBattery>
+		
+		<Charging>
+			<Padding>8,50,0,0</Padding>
+			<Background>
+				<Center>resources\battery_charging.png</Center>
+				<Margin>0,0,0,0</Margin>
+			</Background>
+			<ProgressBar>
+				<Center>resources\state_charging.png</Center>
+				<Margin>24,35,23,35</Margin>
+			</ProgressBar>
+			<HoverOverlay>
+				<Center>resources\overlay_hover.png</Center>
+				<Margin>0,0,0,0</Margin>
+			</HoverOverlay>
+			<PressedOverlay>
+				<Center>resources\overlay_pressed.png</Center>
+				<Margin>0,0,0,0</Margin>
+			</PressedOverlay>
+		</Charging>
+		
+	</States>
+</Theme>

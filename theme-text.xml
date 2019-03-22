@@ -1,0 +1,140 @@
+<Theme>
+	<Author>BenDavidson90</Author>
+	<Date>2019-03-23</Date>
+	<Description>Styled to match the Windows 10 battery tray icon with status under.</Description>
+	<Name>Win10 Battery (Text)</Name>
+	<Version>1.0</Version>
+	<States>
+	
+		<Default>
+			<Font>
+				<Name>Segoe UI</Name>
+				<Size>6</Size>
+			</Font>
+			<TextColor>255, 255, 255, 255</TextColor>
+			<TextShadow>False</TextShadow>
+			<Padding>8,50,0,0</Padding>
+			<Background>
+				<Center>resources\battery.png</Center>
+				<Margin>0,0,0,0</Margin>
+			</Background>
+			<ProgressBar>
+				<Center>resources\state_normal.png</Center>
+				<Margin>24,35,23,35</Margin>
+			</ProgressBar>
+			<HoverOverlay>
+				<Center>resources\overlay_hover.png</Center>
+				<Margin>0,0,0,0</Margin>
+			</HoverOverlay>
+			<PressedOverlay>
+				<Center>resources\overlay_pressed.png</Center>
+				<Margin>0,0,0,0</Margin>
+			</PressedOverlay>
+		</Default>
+		
+		<Discharging>
+			<Font>
+				<Name>Segoe UI</Name>
+				<Size>6</Size>
+			</Font>
+			<TextColor>255, 255, 255, 255</TextColor>
+			<TextShadow>False</TextShadow>
+			<Padding>8,50,0,0</Padding>
+			<Background>
+				<Center>resources\battery.png</Center>
+				<Margin>0,0,0,0</Margin>
+			</Background>
+			<ProgressBar>
+				<Center>resources\state_normal.png</Center>
+				<Margin>24,35,23,35</Margin>
+			</ProgressBar>
+			<HoverOverlay>
+				<Center>resources\overlay_hover.png</Center>
+				<Margin>0,0,0,0</Margin>
+			</HoverOverlay>
+			<PressedOverlay>
+				<Center>resources\overlay_pressed.png</Center>
+				<Margin>0,0,0,0</Margin>
+			</PressedOverlay>
+		</Discharging>
+		
+		<LowBattery>
+			<Font>
+				<Name>Segoe UI</Name>
+				<Size>6</Size>
+			</Font>
+			<TextColor>255, 255, 255, 255</TextColor>
+			<TextShadow>False</TextShadow>
+			<Padding>8,50,0,0</Padding>
+			<Background>
+				<Center>resources\battery.png</Center>
+				<Margin>0,0,0,0</Margin>
+			</Background>
+			<ProgressBar>
+				<Center>resources\state_low.png</Center>
+				<Margin>24,35,23,35</Margin>
+			</ProgressBar>
+			<HoverOverlay>
+				<Center>resources\overlay_hover.png</Center>
+				<Margin>0,0,0,0</Margin>
+			</HoverOverlay>
+			<PressedOverlay>
+				<Center>resources\overlay_pressed.png</Center>
+				<Margin>0,0,0,0</Margin>
+			</PressedOverlay>
+		</LowBattery>
+		
+		<CriticalBattery>
+			<Font>
+				<Name>Segoe UI</Name>
+				<Size>6</Size>
+			</Font>
+			<TextColor>255, 255, 255, 255</TextColor>
+			<TextShadow>False</TextShadow>
+			<Padding>8,50,0,0</Padding>
+			<Background>
+				<Center>resources\battery.png</Center>
+				<Margin>0,0,0,0</Margin>
+			</Background>
+			<ProgressBar>
+				<Center>resources\state_critical.png</Center>
+				<Margin>24,35,23,35</Margin>
+			</ProgressBar>
+			<HoverOverlay>
+				<Center>resources\overlay_hover.png</Center>
+				<Margin>0,0,0,0</Margin>
+			</HoverOverlay>
+			<PressedOverlay>
+				<Center>resources\overlay_pressed.png</Center>
+				<Margin>0,0,0,0</Margin>
+			</PressedOverlay>
+		</CriticalBattery>
+		
+		<Charging>
+			<Font>
+				<Name>Segoe UI</Name>
+				<Size>6</Size>
+			</Font>
+			<TextColor>255, 255, 255, 255</TextColor>
+			<TextShadow>False</TextShadow>
+			<Padding>8,50,0,0</Padding>
+			<Background>
+				<Center>resources\battery_charging.png</Center>
+				<Margin>0,0,0,0</Margin>
+			</Background>
+			<ProgressBar>
+				<Center>resources\state_charging.png</Center>
+				<Margin>24,35,23,35</Margin>
+			</ProgressBar>
+			<HoverOverlay>
+				<Center>resources\overlay_hover.png</Center>
+				<Margin>0,0,0,0</Margin>
+			</HoverOverlay>
+			<PressedOverlay>
+				<Center>resources\overlay_pressed.png</Center>
+				<Margin>0,0,0,0</Margin>
+			</PressedOverlay>
+		</Charging>
+		
+	</States>
+</Theme>
