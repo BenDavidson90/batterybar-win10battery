@@ -20,7 +20,7 @@
 			</Background>
 			<ProgressBar>
 				<Center>resources\state_normal.png</Center>
-				<Margin>24,35,23,35</Margin>
+				<Margin>24,35,26,35</Margin>
 			</ProgressBar>
 			<HoverOverlay>
 				<Center>resources\overlay_hover.png</Center>
@@ -46,7 +46,7 @@
 			</Background>
 			<ProgressBar>
 				<Center>resources\state_normal.png</Center>
-				<Margin>24,35,23,35</Margin>
+				<Margin>24,35,26,35</Margin>
 			</ProgressBar>
 			<HoverOverlay>
 				<Center>resources\overlay_hover.png</Center>
@@ -72,7 +72,7 @@
 			</Background>
 			<ProgressBar>
 				<Center>resources\state_low.png</Center>
-				<Margin>24,35,23,35</Margin>
+				<Margin>24,35,26,35</Margin>
 			</ProgressBar>
 			<HoverOverlay>
 				<Center>resources\overlay_hover.png</Center>
@@ -98,7 +98,7 @@
 			</Background>
 			<ProgressBar>
 				<Center>resources\state_critical.png</Center>
-				<Margin>24,35,23,35</Margin>
+				<Margin>24,35,26,35</Margin>
 			</ProgressBar>
 			<HoverOverlay>
 				<Center>resources\overlay_hover.png</Center>
@@ -119,12 +119,12 @@
 			<TextShadow>False</TextShadow>
 			<Padding>8,50,0,0</Padding>
 			<Background>
-				<Center>resources\battery_charging.png</Center>
+				<Center>resources\battery_charging_blue.png</Center>
 				<Margin>0,0,0,0</Margin>
 			</Background>
 			<ProgressBar>
 				<Center>resources\state_charging.png</Center>
-				<Margin>24,35,23,35</Margin>
+				<Margin>28,35,26,35</Margin>
 			</ProgressBar>
 			<HoverOverlay>
 				<Center>resources\overlay_hover.png</Center>
