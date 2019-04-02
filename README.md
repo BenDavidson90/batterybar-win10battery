@@ -15,4 +15,4 @@
 - The theme should appear in the theme selector in the BatteryBar Pro preferences window
 
 ### License
-MIT
+[MIT](LICENSE.md)
