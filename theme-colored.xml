@@ -3,10 +3,16 @@
 	<Date>2019-03-23</Date>
 	<Description>Styled to match the Windows 10 battery tray icon.</Description>
 	<Name>Win10 Battery (Colored)</Name>
-	<Version>1.0</Version>
+	<Version>1.1</Version>
 	<States>
 	
 		<Default>
+			<Font>
+				<Name>Segoe UI</Name>
+				<Size>6</Size>
+			</Font>
+			<TextColor>0,0,0,0</TextColor>
+			<TextShadow>False</TextShadow>
 			<Padding>8,50,0,0</Padding>
 			<Background>
 				<Center>resources\battery.png</Center>
@@ -27,6 +33,12 @@
 		</Default>
 		
 		<Discharging>
+			<Font>
+				<Name>Segoe UI</Name>
+				<Size>6</Size>
+			</Font>
+			<TextColor>0,0,0,0</TextColor>
+			<TextShadow>False</TextShadow>
 			<Padding>8,50,0,0</Padding>
 			<Background>
 				<Center>resources\battery.png</Center>
@@ -47,6 +59,12 @@
 		</Discharging>
 		
 		<LowBattery>
+			<Font>
+				<Name>Segoe UI</Name>
+				<Size>6</Size>
+			</Font>
+			<TextColor>0,0,0,0</TextColor>
+			<TextShadow>False</TextShadow>
 			<Padding>8,50,0,0</Padding>
 			<Background>
 				<Center>resources\battery.png</Center>
@@ -67,6 +85,12 @@
 		</LowBattery>
 		
 		<CriticalBattery>
+			<Font>
+				<Name>Segoe UI</Name>
+				<Size>6</Size>
+			</Font>
+			<TextColor>0,0,0,0</TextColor>
+			<TextShadow>False</TextShadow>
 			<Padding>8,50,0,0</Padding>
 			<Background>
 				<Center>resources\battery.png</Center>
@@ -87,6 +111,12 @@
 		</CriticalBattery>
 		
 		<Charging>
+			<Font>
+				<Name>Segoe UI</Name>
+				<Size>6</Size>
+			</Font>
+			<TextColor>0,0,0,0</TextColor>
+			<TextShadow>False</TextShadow>
 			<Padding>8,50,0,0</Padding>
 			<Background>
 				<Center>resources\battery_charging_blue.png</Center>

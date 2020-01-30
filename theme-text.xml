@@ -3,7 +3,7 @@
 	<Date>2019-03-23</Date>
 	<Description>Styled to match the Windows 10 battery tray icon with status under.</Description>
 	<Name>Win10 Battery (Text)</Name>
-	<Version>1.0</Version>
+	<Version>1.1</Version>
 	<States>
 	
 		<Default>
@@ -11,7 +11,7 @@
 				<Name>Segoe UI</Name>
 				<Size>6</Size>
 			</Font>
-			<TextColor>255, 255, 255, 255</TextColor>
+			<TextColor>255,255,255,255</TextColor>
 			<TextShadow>False</TextShadow>
 			<Padding>8,50,0,0</Padding>
 			<Background>
@@ -37,7 +37,7 @@
 				<Name>Segoe UI</Name>
 				<Size>6</Size>
 			</Font>
-			<TextColor>255, 255, 255, 255</TextColor>
+			<TextColor>255,255,255,255</TextColor>
 			<TextShadow>False</TextShadow>
 			<Padding>8,50,0,0</Padding>
 			<Background>
@@ -63,7 +63,7 @@
 				<Name>Segoe UI</Name>
 				<Size>6</Size>
 			</Font>
-			<TextColor>255, 255, 255, 255</TextColor>
+			<TextColor>255,255,255,255</TextColor>
 			<TextShadow>False</TextShadow>
 			<Padding>8,50,0,0</Padding>
 			<Background>
@@ -89,7 +89,7 @@
 				<Name>Segoe UI</Name>
 				<Size>6</Size>
 			</Font>
-			<TextColor>255, 255, 255, 255</TextColor>
+			<TextColor>255,255,255,255</TextColor>
 			<TextShadow>False</TextShadow>
 			<Padding>8,50,0,0</Padding>
 			<Background>
@@ -115,7 +115,7 @@
 				<Name>Segoe UI</Name>
 				<Size>6</Size>
 			</Font>
-			<TextColor>255, 255, 255, 255</TextColor>
+			<TextColor>255,255,255,255</TextColor>
 			<TextShadow>False</TextShadow>
 			<Padding>8,50,0,0</Padding>
 			<Background>
