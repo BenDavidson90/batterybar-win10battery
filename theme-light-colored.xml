@@ -1,9 +1,9 @@
 <Theme>
 	<Author>BenDavidson90</Author>
-	<Date>2019-03-23</Date>
+	<Date>2020-01-30</Date>
 	<Description>Styled to match the Windows 10 battery tray icon.</Description>
-	<Name>Win10 Battery (Colored)</Name>
-	<Version>1.1</Version>
+	<Name>Win10 Battery (Colored - Light)</Name>
+	<Version>1.0</Version>
 	<States>
 	
 		<Default>
@@ -15,11 +15,11 @@
 			<TextShadow>False</TextShadow>
 			<Padding>8,50,0,0</Padding>
 			<Background>
-				<Center>resources\battery.png</Center>
+				<Center>resources\light_battery.png</Center>
 				<Margin>0,0,0,0</Margin>
 			</Background>
 			<ProgressBar>
-				<Center>resources\state_normal.png</Center>
+				<Center>resources\light_state_normal.png</Center>
 				<Margin>24,35,26,35</Margin>
 			</ProgressBar>
 			<HoverOverlay>
@@ -41,11 +41,11 @@
 			<TextShadow>False</TextShadow>
 			<Padding>8,50,0,0</Padding>
 			<Background>
-				<Center>resources\battery.png</Center>
+				<Center>resources\light_battery.png</Center>
 				<Margin>0,0,0,0</Margin>
 			</Background>
 			<ProgressBar>
-				<Center>resources\state_normal.png</Center>
+				<Center>resources\light_state_normal.png</Center>
 				<Margin>24,35,26,35</Margin>
 			</ProgressBar>
 			<HoverOverlay>
@@ -67,7 +67,7 @@
 			<TextShadow>False</TextShadow>
 			<Padding>8,50,0,0</Padding>
 			<Background>
-				<Center>resources\battery.png</Center>
+				<Center>resources\light_battery.png</Center>
 				<Margin>0,0,0,0</Margin>
 			</Background>
 			<ProgressBar>
@@ -93,7 +93,7 @@
 			<TextShadow>False</TextShadow>
 			<Padding>8,50,0,0</Padding>
 			<Background>
-				<Center>resources\battery.png</Center>
+				<Center>resources\light_battery.png</Center>
 				<Margin>0,0,0,0</Margin>
 			</Background>
 			<ProgressBar>
@@ -119,7 +119,7 @@
 			<TextShadow>False</TextShadow>
 			<Padding>8,50,0,0</Padding>
 			<Background>
-				<Center>resources\battery_charging_blue.png</Center>
+				<Center>resources\light_battery_charging_blue.png</Center>
 				<Margin>0,0,0,0</Margin>
 			</Background>
 			<ProgressBar>
